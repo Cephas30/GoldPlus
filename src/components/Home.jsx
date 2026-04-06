@@ -22,16 +22,13 @@ const Home = () => {
           </div>
         </div>
 
-        {/* RIGHT IMAGE - left side glow */}
+        {/* RIGHT IMAGE */}
         <div className="w-full lg:w-auto flex justify-center lg:justify-end">
-          <div className="relative">
-            <div className="absolute left-10 md:left-20 top-1/2 -translate-y-1/2 w-32 md:w-40 h-48 md:h-64 bg-yellow-500/40 rounded-full blur-[60px] pointer-events-none z-0"></div>
-            <img
-              src={goldImg}
-              alt="gold"
-              className="relative w-[520px] md:w-[680px] object-contain z-10"
-            />
-          </div>
+          <img
+            src={goldImg}
+            alt="gold"
+            className="w-[520px] md:w-[680px] object-contain"
+          />
         </div>
       </div>
 
